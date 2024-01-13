@@ -1,0 +1,430 @@
+{
+  "intens": [
+    {
+      "tags": "error",
+      "patterns": [""],
+      "responses": ["Mohon maaf, saya hanya bisa menjawab tentang pendaftaran E-KTP."]
+    },
+    {
+      "tags": "salam",
+      "patterns": ["hai", "halo", "hallo", "salam", "hola", "permisi", "mau tanya", "min"],
+      "responses": ["Halo! ada yang bisa saya bantu.", "Hai! senang bertemu denganmu, silahkan jika ingin bertanya"]
+    },
+    {
+      "tags": "salam2",
+      "patterns": ["Assalamu'alaikum", "Assalamualaikum", "Assalamu'alaikum Warahmatullahi", "Assalamualaikum Warahmatullahi Wabarakatuh"],
+      "responses": ["Wa'alaikumsalam warahmatullahi Wabarakatuh"]
+    },
+    {
+      "tags": "salam3",
+      "patterns": ["Selamat pagi", "pagi", "good morning", "morning"],
+      "responses": ["Selamat pagi", "Good morning"]
+    },
+    {
+      "tags": "salam4",
+      "patterns": ["Selamat siang", "siang", "good afternoon", "afternoon"],
+      "responses": ["Selamat siang", "Good afternoon"]
+    },
+    {
+      "tags": "salam5",
+      "patterns": ["Selamat malam", "malam", "good night", "night"],
+      "responses": ["Selamat malam", "Good night"]
+    },
+    {
+      "tags": "terimakasih",
+      "patterns": ["Terima kasih", "makasih", "trims", "oke", "sangat membantu"],
+      "responses": ["Senang bisa membantu", "Tentu tidak masalah", "terimakasih kembali"]
+    },
+    {
+      "tags": "pendaftaran",
+      "patterns": ["Daftar", "registrasi"],
+      "responses": "Saya akan membantu anda melakukan proses pendaftaran E-KTP. Silahkan siapkan dokumen-dokumen yang diperlukan seperti Kartu Keluarga (KK)"
+    },
+    {
+      "tags": "Biaya",
+      "patterns": ["Harga", "biaya", "tarif"],
+      "responses": "Berdasarkan UU No 24 Tahun 2013 tentang Perubahan Atas Undang-Undang Nomor 23 tahun 2006 tentang Administrasi Kependudukan pasal 79A menyatakan bahwa pengurusan dan penerbitan Dokumen Kependudukan tidak dipungut biaya."
+    },
+    {
+      "tags": "Durasi",
+      "patterns": ["berapa lama", "berapa hari"],
+      "responses": "Bagi warga negara yang sudah memenuhi syarat, maka pembuatan KTP dilakukan selambat-lambatnya 14 hari"
+    },
+    {
+      "tags": "Pembuatan",
+      "patterns": ["Cetak"],
+      "responses": "proses pembuatan KTP baru. Proses pembuatan KTP baru biasanya memakan waktu sekitar tujuh hari kerja. Setelah selesai, kamu dapat mengambil KTP baru dan tidak diperkenankan diwakilkan oleh orang lain."
+    },
+    {
+      "tags": "response_7",
+      "patterns": [],
+      "responses": "Prosedur untuk melakukan pendaftaran E-KTP meliputi pengisian formulir pendaftaran, verifikasi dokumen, pengambilan sidik jari dan foto."
+    },
+    {
+      "tags": "response_8",
+      "patterns": [],
+      "responses": "Durasi proses pembuatan E-KTP tergantung pada lokasi dan tingkat kepadatan penduduk. Proses pendaftaran dapat memakan waktu beberapa minggu hingga sebulan"
+    },
+    {
+      "tags": "response_9",
+      "patterns": [],
+      "responses": "Listened to someone talk about relationship troubles. Offered some advice from personal experience."
+    },
+    {
+      "tags": "response_10",
+      "patterns": [],
+      "responses": "Persyaratan yang digunakan untuk pendaftaran E-KTP  meliputi Kartu Keluarga (KK) dan Nomor Induk Kewarganegaraan (NIK)"
+    },
+    {
+      "tags": "response_11",
+      "patterns": [],
+      "responses": "Took a week off work, packed up the car and picked up a friend who was on the verge of losing it and went camping/surfing for a week. His parents were a big part of the problem and being away from them and others and physical activity every day for a week. but more just being around helped i feel."
+    },
+    {
+      "tags": "response_12",
+      "patterns": [],
+      "responses": "Biaya pendaftaran E-KTP dapat berbeda di setiap daerah. Pastikan untuk menghubungi Disdukcapil setempat atau melihat informasi terbaru mengenai biaya pendaftaran yang berlaku di tempat Anda tinggal"
+    },
+    {
+      "tags": "response_13",
+      "patterns": [],
+      "responses": "Anxious girlfriend always needs my help"
+    },
+    {
+      "tags": "response_14",
+      "patterns": [],
+      "responses": "Never"
+    },
+    {
+      "tags": "response_15",
+      "patterns": [],
+      "responses": "You as a mom"
+    },
+    {
+      "tags": "response_16",
+      "patterns": [],
+      "responses": "Untuk menghindari keterlambatan dalam proses pendaftaran, pastikan Anda memiliki semua dokumen yang diperlukan dan membayar biaya pendaftaran yang sesuai."
+    },
+    {
+      "tags": "response_17",
+      "patterns": [],
+      "responses": "I have helped advise friends who have faced circumstances similar to mine"
+    },
+    {
+      "tags": "response_18",
+      "patterns": [],
+      "responses": "I've helped friends out before"
+    },
+    {
+      "tags": "response_19",
+      "patterns": [],
+      "responses": "A friend that is a girl and just talk to her tryin to make her feel better"
+    },
+    {
+      "tags": "response_20",
+      "patterns": [],
+      "responses": "expressing concern and openness to friends when they are dealing with troubles. letting them know they can fell open for dialog."
+    },
+    {
+      "tags": "response_21",
+      "patterns": [],
+      "responses": "listening to girlfriend's problems"
+    },
+    {
+      "tags": "response_22",
+      "patterns": [],
+      "responses": "proses pendaftaran selesai, Anda akan diberikan bukti pendaftaran yang bisa Anda gunakan untuk mengambil E-KTP nantinya"
+    },
+    {
+      "tags": "response_23",
+      "patterns": [],
+      "responses": "Having gone through depression and anxiety myself, I understand the struggles and have a few personal methods to cope when stuff hits. Having this knowledge has allowed me to help several people on the internet as well as my other friends when they have faced similar issues and talk to me about them. I understand how important listening is and offer my experiences to help them get through what they face."
+    },
+    {
+      "tags": "response_24",
+      "patterns": [],
+      "responses": "Sometimes my friends bring up issues they are having with themselves, and I feel that I give them good advice and make them feel adequate and normal. I just try to be kind and helpful and honest."
+    },
+    {
+      "tags": "response_25",
+      "patterns": [],
+      "responses": "never i guess people dont see me as a guy they would go to"
+    },
+    {
+      "tags": "response_26",
+      "patterns": [],
+      "responses": "Last year, my best friend was diagnosed with anxiety disorder and depression. She tried to commit suicide. I tried my best to be there for her the entire time throughout her recovery."
+    },
+    {
+      "tags": "response_27",
+      "patterns": [],
+      "responses": "Cleaning up my friend's campsite and slightly helping him while he was living all summer as an alcoholic in the Mt. Hood woods."
+    },
+    {
+      "tags": "response_28",
+      "patterns": [],
+      "responses": "i listen pretty damn well. better at that as apposed to telling my own story."
+    },
+    {
+      "tags": "response_29",
+      "patterns": [],
+      "responses": "Helping a friend through dealing with his alcoholic mother."
+    },
+    {
+      "tags": "response_30",
+      "patterns": [],
+      "responses": "I used to tutor homeless men at a shelter to help them obtain their GED's. They were all age 50+ and some of them were even reading at a first grade level."
+    },
+    {
+      "tags": "response_31",
+      "patterns": [],
+      "responses": "I am a high school teacher so almost everyday."
+    },
+    {
+      "tags": "response_32",
+      "patterns": [],
+      "responses": "Friends often come to me to talk about the issues that they're facing in life."
+    },
+    {
+      "tags": "response_33",
+      "patterns": [],
+      "responses": "Summer camp, countless kids have the same issue. I tell them i how it is when you cant listen or are restless."
+    },
+    {
+      "tags": "response_34",
+      "patterns": [],
+      "responses": "Haha. In eight grade, kid got rejected twice. Wanted her to sign his yearbook but he was too nervous. I told him she doesn't really care about rejecting him and she thinks no less of him. He did it.    Probably more, but that's what comes up off the top of my head."
+    },
+    {
+      "tags": "response_35",
+      "patterns": [],
+      "responses": "Don't have a specific example but just letting people know you're there if they want to talk."
+    },
+    {
+      "tags": "response_36",
+      "patterns": [],
+      "responses": "Some of my friends have gone through the same type of struggle I have been through. I let them know that they could talk to me about anything and that being honest with yourself even if the truth hurts is the best way to start to get back up."
+    },
+    {
+      "tags": "response_37",
+      "patterns": [],
+      "responses": "Friend who had big addiction issues, ended up being completely isolated, skipped school, and had a very low self esteem. I convinced him to go see a doc together, and promised him that i would go through everything with him. He went to rehab for a few months and now he's clean. But the complete lack of support from his family, from school, changed him. I think it was too late when I helped him (he was like that for 5 months) and he'll never be the same as before."
+    },
+    {
+      "tags": "response_38",
+      "patterns": [],
+      "responses": "I've always been a good listener for people and I think a lot of people just want to be heard and not necessarily fixed. They just need to express themselves to relief their thoughts to others so they're not trapped so much within the confines of their own head.  I've always lent an ear for someone to speak to."
+    },
+    {
+      "tags": "response_39",
+      "patterns": [],
+      "responses": "One of my best friends was diagnosed with cancer and I did as much as I could for him during that time. I visited him almost every day when he was in treatment just so he didn't have to be alone or anything. When he came back to school I helped him get caught up with school work too."
+    },
+    {
+      "tags": "response_40",
+      "patterns": [],
+      "responses": "I don't think I'm qualified to be a serious resource for someone else."
+    },
+    {
+      "tags": "response_41",
+      "patterns": [],
+      "responses": "Many times for my one friend who tried hard drugs (cocaine) and was dealing with depression because of girls"
+    },
+    {
+      "tags": "response_42",
+      "patterns": [],
+      "responses": "A lot for my friends. When they have had girl problems, or have just been down in the dumps about life. I always try to look on the positive side of life, and I try to reflect that on my friends' lives as well."
+    },
+    {
+      "tags": "response_43",
+      "patterns": [],
+      "responses": "I'm the theripist of my friends, they always come to me"
+    },
+    {
+      "tags": "response_44",
+      "patterns": [],
+      "responses": "Describe?    Nah"
+    },
+    {
+      "tags": "response_45",
+      "patterns": [],
+      "responses": "My brother went through the same struggles I did, after i found help I was able to set him on the path to healing."
+    },
+    {
+      "tags": "response_46",
+      "patterns": [],
+      "responses": "Friend got dumped by girl he had been in a relationship in for 2 years. I stayed by his side until he stopped feeling bad about it. I was there for him."
+    },
+    {
+      "tags": "response_47",
+      "patterns": [],
+      "responses": "I open myself to any friend in need of emotional support."
+    },
+    {
+      "tags": "response_48",
+      "patterns": [],
+      "responses": "GF and I help her through a lot of shit because I myself have been through a lot of shit."
+    },
+    {
+      "tags": "response_49",
+      "patterns": [],
+      "responses": "I had a friend that would go off about girls and get super depressed. He told me he was going to kill himself one night and I drove 1n hour and a half to go look for him. By then the cops had already taken him to the hospital but me and a friend went and hung out with him. Also been there to help try and talk him down. Another person I hadnt been friends with for years cause of some stuff called me out of the blue on thankgiving last year. I called back and got a hospital number so I knew something was up. Ended up being a kid who I was friends with years before but was a huge douche to me. He was in the psych ward for trying to kill himself. I got a hold of him and talked to him for a while. Whenever he would call I would answer and be there even though I still had the shit from years earlier on my mind. There are people that I might not want to be around but if it's a situation like this I'll be there for people. My goal or purpose in life that's sustained my survival is to help make other peoples lives a little bit better. Make people laugh when they're sad, help people out when nobody else will. Basically treat other humans even strangers with the respect and kindness of a friend. That's all people need sometime. Let people talk through their shit with me and offer helpful advice if I can. I'm still swimming in my own shit but that's enough to keep me going, keep that little light at the end of the tunnel switched on. Idk how long that will last but I'll be here till it flickers out."
+    },
+    {
+      "tags": "response_50",
+      "patterns": [],
+      "responses": "Sometimes I'll calm my friends down after bad stuff happens."
+    },
+    {
+      "tags": "response_51",
+      "patterns": [],
+      "responses": "I once acted as a resource for someone who was struggling in school, and I helped them with their schoolwork."
+    },
+    {
+      "tags": "response_52",
+      "patterns": [],
+      "responses": "My friend was going through a period of intense depression and i made sure that i was always there for him."
+    },
+    {
+      "tags": "response_53",
+      "patterns": [],
+      "responses": "I have talked though some major blows in my girlfriends life. She has had some tough times, and I helped her with them."
+    },
+    {
+      "tags": "response_54",
+      "patterns": [],
+      "responses": "Talking to a friend over a break up."
+    },
+    {
+      "tags": "response_55",
+      "patterns": [],
+      "responses": "I care about other people more than myself so I listen and help them through tough times"
+    },
+    {
+      "tags": "response_56",
+      "patterns": [],
+      "responses": "Over the internet a LOT of people write to me to talk about their problems. Its often girl related, I dont know, I guess it can be nice to rant to someone you dont know irl/someone who can look at the situation a little bit more objective? I think a lot of guys also feel that it can be hard to talk to girl friends irl about their innermost feelings sometimes, thats the feeling I get at least. My friend jokingly refers to me as an Agony Aunt",
+      "": "because so many people come to me with their problems. All I do is listen"
+    },
+    {
+      "tags": "response_57",
+      "patterns": [],
+      "responses": "Friends sometimes come up to me and ask for advice,  I try and give it the best I possibly can"
+    },
+    {
+      "tags": "response_58",
+      "patterns": [],
+      "responses": "My friend dealt with anxiety and this desire for everything in her life to be perfect, she describes it as caring what happens to much, but either way I simply talked to her and when she would try and change the subject I would have to drag her back in due the fact that she didn't want to talk about it, but in reality she wouldn't get better unless i pulled her back into it and helped her through it. But how i helped was by basically talking to her, and giving her the advice she needed to hear, not the one she wanted to such as oh you'll be ok  this will all blow over\" what i said was more along the lines of being so blunt that many may find it rude but for her and i it was essential to making any progress.\"\"y friend dealt with anxiety and this desire for everything in her life to be perfect  she describes it as caring what happens to much  but either way I simply talked to her and when "
+    },
+    {
+      "tags": "response_59",
+      "patterns": [],
+      "responses": "Simply being there as a friend for somebody who's struggling."
+    },
+    {
+      "tags": "response_60",
+      "patterns": [],
+      "responses": "I've had some friends come to me saying people or acquaintances they've known who have killed themselves try and find comfort with me because my best friend killed himself my junior year of high school so they've come to me hoping to find some answers or peace in the turmoil."
+    },
+    {
+      "tags": "response_61",
+      "patterns": [],
+      "responses": "People calling, talk some sense into them, maybe facebook chat.."
+    },
+    {
+      "tags": "response_62",
+      "patterns": [],
+      "responses": "Having self harmed in the past,  I shared my experience with a friend in hopes of swaying her from those actions."
+    },
+    {
+      "tags": "response_63",
+      "patterns": [],
+      "responses": "Have worked through problems with friends"
+    },
+    {
+      "tags": "response_64",
+      "patterns": [],
+      "responses": "When my friend needed help when she was going through some tough stuff. I knew that she needed it but she wouldn't admit it. So I brought it up and initiated it and we talked about it and it really helped her."
+    },
+    {
+      "tags": "response_65",
+      "patterns": [],
+      "responses": "My sister has some pretty severe issues  with her mental health. I try to be there for her when she needs it and I'd like to think its helped her."
+    },
+    {
+      "tags": "response_66",
+      "patterns": [],
+      "responses": "Helped friends through stuff."
+    },
+    {
+      "tags": "response_67",
+      "patterns": [],
+      "responses": "I helped encourage a friend to go to therapy, and often listened to their problem to let them know there was someone there for them."
+    },
+    {
+      "tags": "response_68",
+      "patterns": [],
+      "responses": "I haven't really met anyone dealing with attention issues. So I haven't had a chance to help unfortunately."
+    },
+    {
+      "tags": "response_69",
+      "patterns": [],
+      "responses": "there are too many to remember specifically, but being as helpful and rational as possible (as well as just listening) with people that need it is a fairly common occurrence"
+    },
+    {
+      "tags": "response_70",
+      "patterns": [],
+      "responses": "one of my friends was feeling down, so he came over and talked it out while I listened and gave him some input."
+    },
+    {
+      "tags": "response_71",
+      "patterns": [],
+      "responses": "never."
+    },
+    {
+      "tags": "response_72",
+      "patterns": [],
+      "responses": "I have tried but am absolutely horrable at it and am way too blunt."
+    },
+    {
+      "tags": "response_73",
+      "patterns": [],
+      "responses": "Ex girlfriend had depression and anxiety. I used to hold her and listen as she told me what was going on"
+    },
+    {
+      "tags": "response_74",
+      "patterns": [],
+      "responses": "Always. I don't judge people to much, and can listen well most of the time. So naturally people come to me with their problems."
+    },
+    {
+      "tags": "response_75",
+      "patterns": [],
+      "responses": "My grandmother went through some severe depression shortly after I had some difficulties. Using my personal experience to relate with her and share what I used to get better was helpful to comfort her."
+    },
+    {
+      "tags": "response_76",
+      "patterns": [],
+      "responses": "Now that I've been through it, although i'm not even where I'd like to be, I'm extremely open about sharing my experience with others and helping friends going through similar situations. And PLEASE if you have any other questions about my situation don't hesitate to email me. I'm an open book and excited to see how many people you're going to help."
+    },
+    {
+      "tags": "response_77",
+      "patterns": [],
+      "responses": "when my best friends mom past away from od'ing when he was in grade 5"
+    },
+    {
+      "tags": "response_78",
+      "patterns": [],
+      "responses": "As a camp counselor I provide stability in kids lives who may have troubled home situations."
+    },
+    {
+      "tags": "response_79",
+      "patterns": [],
+      "responses": "My now girlfriend used to have serious addiction troubles before we started dating and felt as though her addiction defined her as a person. She thought that all people saw when they looked at her was the addiction. I spent many nights with her talking and letting her vent. I was one of the only people supporting her and she felt as though I could help because I had been in her spot."
+    },
+    {
+      "tags": "response_80",
+      "patterns": [],
+      "responses": "The one person I ever talked to it was because we were both going through the same thing. Us talking together helped, it was important to realize you aren't alone"
+    }
+  ]
+}
