@@ -5,10 +5,10 @@ import os
 import json
 import numpy as np
 import tensorflow as tf
-from tensorflow.python.keras.models import Sequential, load_model
-from tensorflow.python.keras.layers import Dense, Embedding, Flatten
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.layers import Dense, Embedding, Flatten
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 
 app = Flask(__name__)
