@@ -1,49 +1,58 @@
+# menggunakan model
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 import os
 import json
 import numpy as np
 import tensorflow as tf
-from tensorflow import keras
-from tensorflow.python.keras.models import Sequential
+from tensorflow.python.keras.models import Sequential, load_model
 from tensorflow.python.keras.layers import Dense, Embedding, Flatten
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 
-# memuat data JSON dari database
-json_path = os.path.join("/ReactPython/backend/data/data.json")
+app = Flask(__name__)
+CORS(app, methods=['POST'], headers=['Content-Type', 'Accept'])
 
-with open(json_path, "r") as file:
+json_path = 'backend\data\data.json'
+
+with open(json_path, 'r') as file:
     data = json.load(file)
 
 patterns = []
 tags = []
 
-for intent in data ["intens"]:
+for intent in data["intens"]:
     for pattern in intent["patterns"]:
         patterns.append(pattern)
-        tags.append(intent["intents"])
+        tags.append(intent["tags"])
 
-# Proses Tokenizing
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(patterns)
 vocab_size = len(tokenizer.word_index) + 1
 
 X = tokenizer.texts_to_sequences(patterns)
-
-X_padded = pad_sequences
-
+X_padded = pad_sequences(X)
 label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(tags)
 
-model = Sequential()
-model.add(Embedding(input_dim=vocab_size, output_dim=50, input_length=X_padded.shape[1]))
-model.add(Flatten())
-model.add(Dense(16, activation='relu'))
-model.add(Dense(len(set(y_encoded)), activation='softmax'))
+# Check if the model file already exists
+model_file = 'backend\chatbot_model.h5'
+if os.path.exists(model_file):
+    # Load the pre-trained model
+    model = load_model(model_file)
+else:
+    # Create and train the model
+    model = Sequential()
+    model.add(Embedding(input_dim=vocab_size, output_dim=50, input_length=X_padded.shape[1]))
+    model.add(Flatten())
+    model.add(Dense(16, activation='relu'))
+    model.add(Dense(len(set(y_encoded)), activation='softmax'))
+    model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+    model.fit(X_padded, y_encoded, epochs=25, batch_size=1, verbose=2)
 
-model.compile(optimizer='adam', loss='sparse_categorial_crossentropy', metrics=['accuracy'])
-
-model.fit(X_padded, y_encoded, epochs=25, batch_size=1, verbose=2)
+    # Save the trained model
+    model.save(model_file)
 
 def get_response(user_input):
     user_input_sequence = tokenizer.texts_to_sequences([user_input])
@@ -55,3 +64,19 @@ def get_response(user_input):
     for intent in data["intens"]:
         if intent["tags"] == predicted_tag:
             return intent["responses"]
+
+@app.route('/', methods=['OPTIONS'])
+def handle_options():
+    return jsonify({'status': 'success'}), 200
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    data = request.json
+    user_input = data['message']
+
+    bot_response = get_response(user_input)
+
+    return jsonify({'botResponse': bot_response})
+
+if __name__ == '__main__':
+    app.run(debug=True)

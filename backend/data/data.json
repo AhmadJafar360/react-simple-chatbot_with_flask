@@ -8,7 +8,7 @@
     {
       "tags": "salam",
       "patterns": ["hai", "halo", "hallo", "salam", "hola", "permisi", "mau tanya", "min"],
-      "responses": ["Halo! ada yang bisa saya bantu.", "Hai! senang bertemu denganmu, silahkan jika ingin bertanya"]
+      "responses": ["Halo! senang bertemu denganmu, ada yang bisa saya bantu?"]
     },
     {
       "tags": "salam2",
@@ -17,18 +17,18 @@
     },
     {
       "tags": "salam3",
-      "patterns": ["Selamat pagi", "pagi", "good morning", "morning"],
-      "responses": ["Selamat pagi", "Good morning"]
+      "patterns": ["Selamat pagi", "pagi"],
+      "responses": ["Selamat pagi"]
     },
     {
       "tags": "salam4",
-      "patterns": ["Selamat siang", "siang", "good afternoon", "afternoon"],
-      "responses": ["Selamat siang", "Good afternoon"]
+      "patterns": ["Selamat siang", "siang"],
+      "responses": ["Selamat siang"]
     },
     {
       "tags": "salam5",
-      "patterns": ["Selamat malam", "malam", "good night", "night"],
-      "responses": ["Selamat malam", "Good night"]
+      "patterns": ["Selamat malam", "malam"],
+      "responses": ["Selamat malam"]
     },
     {
       "tags": "terimakasih",
@@ -48,37 +48,48 @@
     {
       "tags": "Durasi",
       "patterns": ["berapa lama", "berapa hari"],
-      "responses": "Bagi warga negara yang sudah memenuhi syarat, maka pembuatan KTP dilakukan selambat-lambatnya 14 hari"
+      "responses": "Durasi proses pembuatan E-KTP tergantung pada lokasi dan tingkat kepadatan penduduk, Bagi warga negara yang sudah memenuhi syarat, maka pembuatan KTP dilakukan selambat-lambatnya 14 hari"
     },
     {
       "tags": "Pembuatan",
       "patterns": ["Cetak"],
-      "responses": "proses pembuatan KTP baru. Proses pembuatan KTP baru biasanya memakan waktu sekitar tujuh hari kerja. Setelah selesai, kamu dapat mengambil KTP baru dan tidak diperkenankan diwakilkan oleh orang lain."
+      "responses": "Proses pembuatan KTP baru biasanya memakan waktu sekitar tujuh hari kerja. Setelah selesai, kamu dapat mengambil KTP baru dan tidak diperkenankan diwakilkan oleh orang lain."
     },
     {
-      "tags": "response_7",
-      "patterns": [],
+      "tags": "Prosedur",
+      "patterns": ["tata cara", "prosedur", "langkah-langkah"],
       "responses": "Prosedur untuk melakukan pendaftaran E-KTP meliputi pengisian formulir pendaftaran, verifikasi dokumen, pengambilan sidik jari dan foto."
     },
     {
-      "tags": "response_8",
-      "patterns": [],
-      "responses": "Durasi proses pembuatan E-KTP tergantung pada lokasi dan tingkat kepadatan penduduk. Proses pendaftaran dapat memakan waktu beberapa minggu hingga sebulan"
+      "tags": "Waktu",
+      "patterns": ["kapan", "jadwal"],
+      "responses": "Pelayanan operasional dibuka mulai jam 08:00 WIB - 15:00 WIB"
     },
     {
-      "tags": "response_9",
-      "patterns": [],
-      "responses": "Listened to someone talk about relationship troubles. Offered some advice from personal experience."
+      "tags": "Pengertian",
+      "patterns": ["apa itu", "jelaskan", "KTP"],
+      "responses": "Kartu Tanda Penduduk (KTP) diproses secara komputerisasi dan dilengkapi cip yang berfungsi untuk menyimpan biodata, sidik jari dan tanda tangan."
     },
     {
-      "tags": "response_10",
-      "patterns": [],
-      "responses": "Persyaratan yang digunakan untuk pendaftaran E-KTP  meliputi Kartu Keluarga (KK) dan Nomor Induk Kewarganegaraan (NIK)"
+      "tags": "Persyaratan",
+      "patterns": ["syarat"],
+      "responses": ["Persyaratan yang digunakan untuk pendaftaran E-KTP meliputi : 1) Telah berusia 17 tahun, 2) Fotokopi Kartu Keluarga (KK), 3) Akta Kelahiran."]
     },
+
     {
-      "tags": "response_11",
-      "patterns": [],
-      "responses": "Took a week off work, packed up the car and picked up a friend who was on the verge of losing it and went camping/surfing for a week. His parents were a big part of the problem and being away from them and others and physical activity every day for a week. but more just being around helped i feel."
+      "tags": "Media",
+      "patterns": ["Sosmed", "Social Media", "Sosial media", "instagram", "youtube", "facebook"],
+      "responses": [
+        {
+          "deskripsi": "Posyandu Desa Tracal",
+          "link": "https://www.instagram.com/posyandu.tracal/"
+        },
+        {
+          "deskripsi": "Pelajar NU Desa Tracal",
+          "link": "https://www.instagram.com/pena_tracal/",
+          "link 2": "https://www.youtube.com/@penatracal_3444"
+        }
+      ]
     },
     {
       "tags": "response_12",
